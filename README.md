@@ -26,10 +26,6 @@ This Chrome extension allows you to set a custom refresh interval for the curren
 5. Click "Stop" to pause auto-refresh.
 6. Click "Reset" to clear the refresh interval.
 
-## Contributing
-
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
