@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Auto Refresh Extension</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div id="container">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+  <div id="intervalContainer">
+    <label for="inputInterval">Enter a refresh Interval (seconds): </label>
+    <div class="autocomplete">
+      <input type="number" id="inputInterval" min="1" placeholder="Enter seconds">
+      <div id="autocomplete-list"></div>
+    </div>
+  </div>
+  <div id="selectContainer">
+    <label for="selectInterval">Select a refresh Interval (seconds): </label>
+    <select id="selectInterval">
+      <option value="1">1</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="30">30</option>
+      <option value="45">45</option>
+      <option value="60">60</option>
+    </select>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

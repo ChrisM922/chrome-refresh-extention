@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh Extension",
+  "version": "1.0",
+  "author": {
+    "name": "Christopher Mace",
+    "email": "contact@christopher-mace.com",
+    "url": "https://christopher-mace.com"
+  },
+  "description": "Refresh a page at a selected interval.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
